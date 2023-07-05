@@ -71,7 +71,7 @@ const Header = ({
         className={`w-full xl:${width} relative mx-auto py-2 md:py-5 flex items-center justify-between`}
       >
         <div>
-          <a href="/">
+          {/* <a href="/"> */}
             <>
               <div className="cursor-pointer hidden xl:block">
                 <Logo />
@@ -80,7 +80,7 @@ const Header = ({
                 <LogoIcon />
               </div>
             </>
-          </a>
+          {/* </a> */}
         </div>
 
         <SemiHeader headerSearch={headerSearch} />
@@ -128,8 +128,8 @@ const Header = ({
             Become a Host
           </div>
           <div
-            onClick={() => setHeaderMenu((prev) => !prev)}
-            className={`flex items-center gap-3 border border-borderColor select-none rounded-full pr-2 pl-4 py-1 cursor-pointer relative ${
+            // onClick={() => setHeaderMenu((prev) => !prev)}
+            className={`flex items-center gap-3 border cursor-pointer border-borderColor select-none rounded-full pr-2 pl-4 py-1  relative ${
               headerMenu ? "custom-shadow" : ""
             }`}
           >

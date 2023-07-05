@@ -7,6 +7,7 @@ import { textResizer } from "../../../utils/handlers";
 
 const Card = ({ post }) => {
   const { wishlist } = useContext(Context);
+  const[liked, setLiked] = useState(false)
   const [isSaved, changeWishlist] = useWishlist(post, wishlist);
 
   return (
@@ -14,14 +15,14 @@ const Card = ({ post }) => {
       className="w-full cursor-pointer relative"
       title={post.lt.slice(0, 1).toUpperCase() + post.lt.slice(1, -1)}
     >
-      <div className="absolute top-6 right-6 z-10" onClick={changeWishlist}>
+      <div onClick={() => setLiked(!liked)} className="absolute top-6 right-6 z-10" >
         <Heart
           css={`h-[23px] w-[23px] stroke-white stroke-[3] ${
-            isSaved ? "fill-[#ff385c]" : "fill-[rgba(0, 0, 0, 0.5)]"
+            liked ? "fill-[#ff385c]" : "fill-[rgba(0, 0, 0, 0.5)]"
           }`}
         />
       </div>
-      <a className="block" href={`/listings/${post._id}`} target="_blank">
+      {/* <a className="block" href={`/listings/${post._id}`} target="_blank"> */}
         <div className="min-h-[250px] h-[calc(50vw/5+20px)] relative">
           <img
             src={post.images[0].url}
@@ -45,7 +46,7 @@ const Card = ({ post }) => {
             <span className="font-semibold">{post.price}</span> night
           </span>
         </div>
-      </a>
+      {/* </a> */}
     </div>
   );
 };

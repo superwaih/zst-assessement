@@ -32,11 +32,11 @@ const HeaderSearchLayoutOne = ({
     >
       <div
         className="h-full px-3 py-1 flex gap-1 items-center"
-        onClick={() => {
-          setOverlay(true);
-          setSelection("destination");
-          setHeaderSearch((prev) => !prev);
-        }}
+        // onClick={() => {
+        //   setOverlay(true);
+        //   setSelection("destination");
+        //   setHeaderSearch((prev) => !prev);
+        // }}
       >
         <span className="block text-sm text-gray-700 font-semibold cursor-pointer">
           {destination || "Anywhere"}
@@ -45,11 +45,11 @@ const HeaderSearchLayoutOne = ({
       <div className="h-[20px] w-1 block border-r border-borderColor"></div>
       <div
         className="h-full px-3 py-1"
-        onClick={() => {
-          setOverlay(true);
-          setSelection("check-in");
-          setHeaderSearch((prev) => !prev);
-        }}
+        // onClick={() => {
+        //   setOverlay(true);
+        //   setSelection("check-in");
+        //   setHeaderSearch((prev) => !prev);
+        // }}
       >
         <button>
           <span className="block text-sm text-gray-700 font-semibold">
@@ -66,11 +66,11 @@ const HeaderSearchLayoutOne = ({
 
       <div className="h-full pl-3 py-1 flex gap-2 items-center justify-center">
         <span
-          onClick={() => {
-            setOverlay(true);
-            setSelection("guests");
-            setHeaderSearch((prev) => !prev);
-          }}
+          // onClick={() => {
+          //   setOverlay(true);
+          //   setSelection("guests");
+          //   setHeaderSearch((prev) => !prev);
+          // }}
           className="block text-sm font-semibold text-black cursor-pointer"
         >
           {textResizer(result, 12) || "Any Guest"}
