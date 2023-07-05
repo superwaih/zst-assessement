@@ -45,11 +45,7 @@ const HeaderSearchLayoutOne = ({
       <div className="h-[20px] w-1 block border-r border-borderColor"></div>
       <div
         className="h-full px-3 py-1"
-        // onClick={() => {
-        //   setOverlay(true);
-        //   setSelection("check-in");
-        //   setHeaderSearch((prev) => !prev);
-        // }}
+       
       >
         <button>
           <span className="block text-sm text-gray-700 font-semibold">
@@ -66,11 +62,7 @@ const HeaderSearchLayoutOne = ({
 
       <div className="h-full pl-3 py-1 flex gap-2 items-center justify-center">
         <span
-          // onClick={() => {
-          //   setOverlay(true);
-          //   setSelection("guests");
-          //   setHeaderSearch((prev) => !prev);
-          // }}
+         
           className="block text-sm font-semibold text-black cursor-pointer"
         >
           {textResizer(result, 12) || "Any Guest"}
@@ -84,23 +76,7 @@ const HeaderSearchLayoutOne = ({
             backgroundImage: "none!important",
           }}
           dark={false}
-          onClick={() => {
-            router.push(
-              `/s/${destination || "_"}?numberOfAdults=${
-                guests.adults.value
-              }&numberOfChildren=${guests.children.value}&numberOfInfants=${
-                guests.infants.value
-              }&numberOfPets=${guests.pets.value}&checkin=${
-                selectedDay ? format(selectedDay, "yyyy-MM-dd") : null
-              }&checkout=${
-                selectedDay ? format(selectEnd, "yyyy-MM-dd") : null
-              }`
-            );
-
-            setHeaderSearch(false);
-            setOverlay(false);
-            setSelection(null);
-          }}
+         
         >
           <Search />
         </BtnPrimary>

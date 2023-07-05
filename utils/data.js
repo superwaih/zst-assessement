@@ -135,7 +135,7 @@ export const ReviewsData = [
 export const PostsData = [
   {
     _id: "1e85f0e0-270b-40fd-91d2-58c5a58ddced",
-    title: "Pelkosenniemi, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.81",
     price: "$1006",
     images: [
@@ -148,7 +148,7 @@ export const PostsData = [
   },
   {
     _id: "afadb17b-391b-4740-bd70-4e5ff8743920",
-    title: "Utsjoki, Finland",
+    title: "Lagos, Nigeria",
     rating: "New",
     price: "$195",
     images: [
@@ -161,7 +161,7 @@ export const PostsData = [
   },
   {
     _id: "834615b2-e1ff-495d-a6ee-7b456ed1b8f2",
-    title: "Inari, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.6",
     price: "$136",
     images: [
@@ -174,7 +174,7 @@ export const PostsData = [
   },
   {
     _id: "70ac3615-7db6-43cd-b0e0-d83dfc244115",
-    title: "Suomussalmi KK, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.93",
     price: "$137",
     images: [
@@ -187,7 +187,7 @@ export const PostsData = [
   },
   {
     _id: "d819ae68-2b0f-4226-8f1b-0a777a7a5f8b",
-    title: "Pudasjärvi, Finland",
+    title: "Lagos, Nigeria",
     rating: "New",
     price: "$177",
     images: [
@@ -200,7 +200,7 @@ export const PostsData = [
   },
   {
     _id: "7ca00514-c84b-4bfb-8439-28cfb2e8a3bf",
-    title: "Kuusamo, Finland",
+    title: "Lagos, Nigeria",
     rating: "5.0",
     price: "$228",
     images: [
@@ -213,7 +213,7 @@ export const PostsData = [
   },
   {
     _id: "4ea7c3d1-d2e2-43c3-9e3b-aeee0678806d",
-    title: "Utsjoki, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.89",
     price: "$274",
     images: [
@@ -265,7 +265,7 @@ export const PostsData = [
   },
   {
     _id: "67bf9218-4adf-4d34-b9a0-c5062eb6c146",
-    title: "Puolanka, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.93",
     price: "$99",
     images: [
@@ -278,7 +278,7 @@ export const PostsData = [
   },
   {
     _id: "81595844-af3a-44df-8a44-51377aa8cadf",
-    title: "Posio, Finland",
+    title: "Lagos, Nigeria",
     rating: "5.0",
     price: "$118",
     images: [
@@ -291,7 +291,7 @@ export const PostsData = [
   },
   {
     _id: "96135927-795a-45d8-985d-a5d24fdde22a",
-    title: "Kuusamo, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.9",
     price: "$153",
     images: [
@@ -304,7 +304,7 @@ export const PostsData = [
   },
   {
     _id: "0178c210-d5e5-4b33-990c-a9c5e6f3b152",
-    title: "Pelkosenniemi, Finland",
+    title: "Lagos, Nigeria",
     rating: "4.72",
     price: "$72",
     images: [
@@ -317,7 +317,7 @@ export const PostsData = [
   },
   {
     _id: "3961447e-dd16-4b4f-a5c9-d4f2aaadc063",
-    title: "Utsjoki, Finland",
+    title: "Lagos, Nigeria",
     rating: "New",
     price: "$140",
     images: [
@@ -330,7 +330,7 @@ export const PostsData = [
   },
   {
     _id: "fd9cee88-f749-4506-b5d6-6657aedb32ce",
-    title: "Polmak, Norway",
+    title: "Lagos, Nigeria",
     rating: "4.9",
     price: "$67",
     images: [
@@ -343,7 +343,7 @@ export const PostsData = [
   },
   {
     _id: "b124890e-e9c8-4e16-a744-5b1ecadde260",
-    title: "Salla, Finland",
+    title: "Lagos, Nigeria",
     rating: "5.0",
     price: "$194",
     images: [
@@ -356,7 +356,7 @@ export const PostsData = [
   },
   {
     _id: "c5566a3a-4fd6-4fb8-b594-31c12e81fe0e",
-    title: "Sør-Varanger, Norway",
+    title: "Lagos, Nigeria",
     rating: "4.95",
     price: "$113",
     images: [
@@ -382,7 +382,7 @@ export const PostsData = [
   },
   {
     _id: "d779e023-320d-4c08-8682-d0c48cecef57",
-    title: "Lake Inari, Finland",
+   title: "Lagos, Nigeria",
     rating: "5.0",
     price: "$232",
     images: [
@@ -395,7 +395,7 @@ export const PostsData = [
   },
   {
     _id: "787b3777-fba4-4bda-867f-963cc18b4d7b",
-    title: "Vardø kommune, Norway",
+    title: "Lagos, Nigeria",
     rating: "4.5",
     price: "$103",
     images: [
